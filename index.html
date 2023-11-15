@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guessing game</h1>
+      <div class="container-content">
+        
+        <input type="text" placeholder="Enter your guess" id="guessingInput" />
+        <p id="resultMessage"></p>
+        <button id="guessButton">Guess</button>
+        <button id="playAgainButton">Play again</button>
+        <div class="container-guesses">
+          <h3>Your previous guesses:</h3>
+          <ul id="previousGuessesUl">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
